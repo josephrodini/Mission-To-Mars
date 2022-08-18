@@ -20,17 +20,17 @@ After some initial success with her web app, she wishes to expand it in order to
 
 The first task was to scrape full-resolution images of Mars' hempspheres as well as the titles of those images. 
 
-Code was written in Jupyter Notebook to scrape data from https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars. This included finding the html tags that hold the proper links and looping through them. The results were put in a [dictionary]().
+Code was written in Jupyter Notebook to scrape data from https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars. This included finding the html tags that hold the proper links and looping through them. The results were put in a [dictionary](https://github.com/josephrodini/Mission-to-Mars/blob/main/resources/Dictionary.PNG).
 
 ## Deliverable Two
 
 The second task was to update the web app with the hemisphere information gleaned in the first component, as well as import that information into MongoDB.
 
-The Jupyter Notebook file was converted to a python script and a function was created in order to do the same scraping of the hemisphere data automatically. A app.py script was created in order to run the scraping script in flask. Finally, the information was added to a [Mongo database]().
+The Jupyter Notebook file was converted to a python script and a function was created in order to do the same scraping of the hemisphere data automatically. A app.py script was created in order to run the scraping script in flask. Finally, the information was added to a [Mongo database](https://github.com/josephrodini/Mission-to-Mars/blob/main/resources/MongoDB.PNG).
 
 ## Deliverable Three
 
-Finally, in order to spruce up the webpage, Bootstrap 3 was utilized to both make the web app mobile-friendly and make it more visually appealing. Specifically, some red elements were added to the site to make it look more Mars-appropriate. The web scraping button [was enlarged and shaded deep red](), while the article summary [was shaded light red]().
+Finally, in order to spruce up the webpage, Bootstrap 3 was utilized to both make the web app mobile-friendly and make it more visually appealing. Specifically, some red elements were added to the site to make it look more Mars-appropriate. The web scraping button [was enlarged and shaded deep red](https://github.com/josephrodini/Mission-to-Mars/blob/main/resources/ScrapeButton.PNG), while the article summary [was shaded light red](https://github.com/josephrodini/Mission-to-Mars/blob/main/resources/ArticleSummary.PNG).
 
 ## Summary
 
