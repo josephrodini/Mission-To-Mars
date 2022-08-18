@@ -3,7 +3,7 @@ from flask import Flask, render_template, redirect, url_for
 from flask_pymongo import PyMongo
 import scraping
 
-# st up Flask
+# set up Flask
 app = Flask(__name__)
 
 # tell Python how to connect to Mongo using PyMongo

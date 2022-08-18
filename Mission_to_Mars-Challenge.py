@@ -78,7 +78,7 @@ df.to_html()
 # ### Hemispheres
 
 # 1. Use browser to visit the URL 
-url = 'https://marshemispheres.com/'
+url = 'https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars'
 
 browser.visit(url)
 
